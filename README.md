@@ -25,6 +25,7 @@ A Django-based web application to streamline and improve customer service operat
 ---
 
 ## 📁 Project Structure
+```
 gas_utility_portal/
 │
 ├── accounts/
@@ -54,7 +55,7 @@ gas_utility_portal/
 │
 ├── manage.py
 └── README.md
-
+```
 
 
 ---
