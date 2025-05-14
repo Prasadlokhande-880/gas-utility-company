@@ -25,36 +25,36 @@ A Django-based web application to streamline and improve customer service operat
 ---
 
 ## 📁 Project Structure
-
 gas_utility_portal/
 │
-├── accounts/ # Handles user registration, login, profiles
-│ ├── models.py
-│ ├── views.py
-│ ├── forms.py
-│ └── urls.py
+├── accounts/
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   └── urls.py
 │
-├── service_requests/ # Manages service request submission & tracking
-│ ├── models.py
-│ ├── views.py
-│ ├── forms.py
-│ └── urls.py
+├── service_requests/
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   └── urls.py
 │
-├── support_dashboard/ # Admin tools for managing requests
-│ ├── views.py
-│ └── urls.py
+├── support_dashboard/
+│   ├── views.py
+│   └── urls.py
 │
-├── templates/ # HTML templates
+├── templates/
+├── static/
 │
-├── static/ # Static files (CSS, JS, Images)
+├── gas_utility_portal/  # Your main config folder
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 │
-├── gas_utility_portal/ # Main project configuration
-│ ├── settings.py
-│ ├── urls.py
-│ └── wsgi.py
-│
-├── manage.py # Django's CLI entry point
+├── manage.py
 └── README.md
+
 
 
 ---
